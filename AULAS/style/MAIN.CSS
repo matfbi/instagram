@@ -1,0 +1,53 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial black', times;
+    font-size: 40px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme.principal{
+    font-size: 16px;
+    background: linear-gradient(RGBA(0,0,0,.50)100%)  url('/workspace/AULAS/img/GOT.jpg');
+
+    height: 400PX;
+    background-size: cover;
+
+
+}
