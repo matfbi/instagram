@@ -42,12 +42,73 @@ header nav a:hover{
 }
 
 /*filme principal*/
-.filme.principal{
+.filme-principal{
     font-size: 16px;
-    background: linear-gradient(RGBA(0,0,0,.50)100%)  url('/workspace/AULAS/img/GOT.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/img/GOT.jpg");
+    /*background: linear-gradient(rgba(168, 41, 41, 0.5), rgba(0,0,0,.50)100%), url('/workspace/instagram/img/google-botao.png');*/
 
     height: 400PX;
     background-size: cover;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+.filme-principal .descricao {
+    margin-bottom: 90px;
+    margin-bottom: 40px;
+
+
+}
+
+.filme-principal .titulo{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'trebuchet ms', arial, sans-serif;
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: 3s;
+
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
